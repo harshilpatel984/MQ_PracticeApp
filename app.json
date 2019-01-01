@@ -1,0 +1,27 @@
+{
+  "id": "43925584-406e-4fd7-b609-3691afc8f44b",
+  "name": "MQ_PracticeApp",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Image/Skull.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 60000,
+    "to": 70000
+  },
+  "runtime": "2.0",
+  "features": [
+    "TranslationFile"
+  ],
+  "showMyCode": false
+}

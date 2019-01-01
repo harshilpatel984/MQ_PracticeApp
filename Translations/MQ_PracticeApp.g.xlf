@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="MQ_PracticeApp">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 475895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MQ Document Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report MQDocumentReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 475895 - NamedType 3491633870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report MQDocumentReport - NamedType BilltoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 475895 - NamedType 2987818773" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report MQDocumentReport - NamedType ShiptoLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
