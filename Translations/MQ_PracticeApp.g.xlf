@@ -3,6 +3,156 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="MQ_PracticeApp">
     <body>
       <group id="body">
+        <trans-unit id="Table 1756731938 - Field 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PersonNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field PersonNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 1713889359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Name2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 1131161452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Mobile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 179365352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Address2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 1285973296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PersonNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field PersonNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LineNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field LineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 54550079 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Support,Development,SelfLearn</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field Tasktype - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 54550079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tasktype</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field Tasktype - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 1333289741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hours</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2823283181 - Field 1480152425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TaskDetails</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonList - Field TaskDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2823283181 - Control 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonList - Control PersonNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2823283181 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonList - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2823283181 - Control 1285973296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonList - Control Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control PersonNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 1713889359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Name2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 179365352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Address2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 1131161452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Mobile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 1285973296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 3395481385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Task Detail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control PersonList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292244701 - Control 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonSubForm - Control PersonNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292244701 - Control 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonSubForm - Control LineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292244701 - Control 54550079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonSubForm - Control Tasktype - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292244701 - Control 1480152425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonSubForm - Control TaskDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292244701 - Control 1333289741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approximate Hours</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPersonSubForm - Control Hours - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 475895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MQ Document Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
