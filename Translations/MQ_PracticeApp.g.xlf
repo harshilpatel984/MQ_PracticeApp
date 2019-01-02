@@ -18,6 +18,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report MQDocumentReport - NamedType ShiptoLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3239712580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MQ List Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report MQListReport - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
