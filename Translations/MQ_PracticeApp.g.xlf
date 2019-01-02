@@ -173,6 +173,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report MQListReport - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3025016641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MQ Export To Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report MQExcelExport - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
