@@ -129,6 +129,10 @@ report 60000 MQDocumentReport
                     {
 
                     }
+                    column(TempBlob; TempBlob.Blob)
+                    {
+
+                    }
 
                     dataitem("Sales Line"; "Sales Line")
                     {
@@ -177,7 +181,8 @@ report 60000 MQDocumentReport
                     begin
                         FormatAddr.GetCompanyAddr("Responsibility Center", ResponsibilityCenter, CompanyInfo, CompAddr);
                         FormatAddr.SalesHeaderBillTo(CustAddr, "Sales Header");
-                        FormatAddr.SalesHeaderShipTo(ShipAddr, CustAddr, "Sales Header")
+                        FormatAddr.SalesHeaderShipTo(ShipAddr, CustAddr, "Sales Header");
+                        MQBarcode.DoGenerateBarcode("No.", 0, TempBlob);
                     end;
 
                     trigger OnPostDataItem()
@@ -267,6 +272,8 @@ report 60000 MQDocumentReport
 
     var
         CompanyInfo: Record "Company Information";
+        TempBlob: Record TempBlob temporary;
+        MQBarcode: Codeunit MQBarcode;
         FormatAddr: Codeunit "Format Address";
         ResponsibilityCenter: Record "Responsibility Center";
         FormatDocument: Codeunit "Format Document";

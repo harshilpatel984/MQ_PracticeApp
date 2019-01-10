@@ -1439,6 +1439,22 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
                 </Border>
               </Style>
             </Image>
+            <Image Name="Image1">
+              <Source>Database</Source>
+              <Value>=First(Fields!TempBlob.Value, "DataSet_Result")</Value>
+              <MIMEType>image/png</MIMEType>
+              <Sizing>FitProportional</Sizing>
+              <Top>0.58773cm</Top>
+              <Left>5.755cm</Left>
+              <Height>0.846cm</Height>
+              <Width>5cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
           </ReportItems>
           <Style>
             <Border>
@@ -1601,6 +1617,9 @@ End Function
         </Field>
         <Field Name="OutputNo">
           <DataField>OutputNo</DataField>
+        </Field>
+        <Field Name="TempBlob">
+          <DataField>TempBlob</DataField>
         </Field>
         <Field Name="Type">
           <DataField>Type</DataField>
