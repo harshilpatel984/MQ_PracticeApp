@@ -182,6 +182,7 @@ report 60000 MQDocumentReport
                         FormatAddr.GetCompanyAddr("Responsibility Center", ResponsibilityCenter, CompanyInfo, CompAddr);
                         FormatAddr.SalesHeaderBillTo(CustAddr, "Sales Header");
                         FormatAddr.SalesHeaderShipTo(ShipAddr, CustAddr, "Sales Header");
+
                         MQBarcode.DoGenerateBarcode("No.", 0, TempBlob);
                     end;
 

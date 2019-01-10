@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.846cm</Height>
+                  <Height>2.25781cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -80,7 +80,7 @@ Cstr(Fields!ShipAddr4.Value) + Chr(177) +
 Cstr(Fields!ShipAddr5.Value) + Chr(177) + 
 Cstr(Fields!ShipAddr6.Value) + Chr(177) + 
 Cstr(Fields!ShipAddr7.Value) + Chr(177) + 
-Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidden>
+Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) + Chr(177) + Code.ConvertPicture(Fields!TempBlob.Value),1)</Hidden>
                                             </Visibility>
                                             <Style>
                                               <Border>
@@ -502,6 +502,7 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
+                              <Top>0.635cm</Top>
                               <Height>0.846cm</Height>
                               <Width>16.47cm</Width>
                               <ZIndex>1</ZIndex>
@@ -511,6 +512,22 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
                                 </Border>
                               </Style>
                             </Tablix>
+                            <Image Name="Image1">
+                              <Source>Database</Source>
+                              <Value>=Fields!TempBlob.Value</Value>
+                              <MIMEType>image/png</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>1.1635cm</Top>
+                              <Left>12.065cm</Left>
+                              <Height>1.09431cm</Height>
+                              <Width>4.35609cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
@@ -555,7 +572,7 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Height>0.846cm</Height>
+            <Height>2.25781cm</Height>
             <Width>16.47cm</Width>
             <Style>
               <Border>
@@ -564,7 +581,7 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>0.846cm</Height>
+        <Height>2.25781cm</Height>
         <Style />
       </Body>
       <Width>16.47cm</Width>
@@ -1439,14 +1456,14 @@ Cstr(Fields!ShipAddr8.Value) + Chr(177) +Cstr(Fields!Header_No.Value) ,1)</Hidde
                 </Border>
               </Style>
             </Image>
-            <Image Name="Image1">
+            <Image Name="Image2">
               <Source>Database</Source>
-              <Value>=First(Fields!TempBlob.Value, "DataSet_Result")</Value>
+              <Value>=Code.GetData(26,1)</Value>
               <MIMEType>image/png</MIMEType>
               <Sizing>FitProportional</Sizing>
-              <Top>0.58773cm</Top>
+              <Top>0.28363cm</Top>
               <Left>5.755cm</Left>
-              <Height>0.846cm</Height>
+              <Height>1.1501cm</Height>
               <Width>5cm</Width>
               <ZIndex>5</ZIndex>
               <Style>
@@ -1524,7 +1541,12 @@ Public Function SetData(NewData as Object,Group as integer)
 
 End Function
 
-
+Public Function ConvertPicture(Value)
+  If IsNothing(Value) Then
+    Return ""
+  End If
+Return Cstr(Convert.ToBase64String(Value))
+End Function
 
 </Code>
   <Language>=User!Language</Language>
