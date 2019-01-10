@@ -4,14 +4,21 @@
   "publisher": "Default publisher",
   "brief": "",
   "description": "",
-  "version": "1.0.0.2",
+  "version": "1.0.0.4",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "Image/Skull.png",
+  "logo": "Image/ML.png",
   "capabilities": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "appId": "6ac9a78f-c45a-474a-82b0-692e18d67d78",
+      "name": "Barcode",
+      "publisher": "MQ",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
