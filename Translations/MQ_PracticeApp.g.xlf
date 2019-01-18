@@ -43,6 +43,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field No. Series - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1756731938 - Field 2087999386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Male,Female,Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MQPersonHeader - Field Sex - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2823283181 - Field 2866920138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PersonNumber</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -102,6 +107,11 @@
           <source>Last Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Name2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253265411 - Control 2087999386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sex</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MQPerson - Control Sex - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2253265411 - Control 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Address</source>

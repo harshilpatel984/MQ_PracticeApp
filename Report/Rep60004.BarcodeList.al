@@ -27,7 +27,6 @@ report 60004 MQBarcodeList
     }
 
     var
-        a: Code[20];
         temp: Record TempBlob temporary;
         cd: Codeunit MQBarcode;
 }

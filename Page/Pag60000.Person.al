@@ -27,6 +27,11 @@ page 60000 MQPerson
                     ApplicationArea = All;
                     Caption = 'Last Name';
                 }
+                field(Sex; Sex)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Sex';
+                }
             }
             group("Person Contact")
             {

@@ -44,6 +44,11 @@ table 60000 MQPersonHeader
         {
 
         }
+        field(9; Sex; Option)
+        {
+            OptionMembers = Male,Female,Other;
+            Caption='Male,Female,Other';
+        }
     }
 
     keys
